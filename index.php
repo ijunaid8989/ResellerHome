@@ -12,12 +12,12 @@
         <div class="price_table">
         	<div class="plan_info">
             <h2 class="title">Basic</h2>
-            <div class="price"><sup>$</sup>9.99 <i>/ mo</i></div>
+            <div class="price"><sup>$</sup>5.95 <i>/ mo</i></div>
             <ul class="plan_features two">
               <li>1 GB Bandwidth</li>
-              <li>256 MB Memory</li>
-              <li>24/7 Full Support</li>
-              <li>256 MB Memory</li>
+              <li>100 GB Memory</li>
+              <li>10 Domains Supported</li>
+              <li>100 MySql Databases</li>
               <li>24/7 Full Support</li>
             </ul>
             <div class="margin_top3"></div>
@@ -33,15 +33,15 @@
           		<div class="arrow two"></div>
           		<div class="arrow three"></div>
           		<div class="arrow four"></div>
-          		<div class="plan_info" style="color:white;">
-            		<h2 class="title">Premium</h2>
-            		<div class="price"><sup>$</sup>39.99 <i>/ mo</i></div>
+          		<div class="plan_info">
+            		<h2 class="title">Business</h2>
+            		<div class="price"><sup>$</sup>9.95 <i>/ mo</i></div>
             		<ul class="plan_features two">
-		              <li>1 GB Bandwidth</li>
-		              <li>256 MB Memory</li>
-		              <li>24/7 Full Support</li>
-		              <li>24/7 Full Support</li>
-		              <li>256 MB Memory</li>
+		              <li>Unlimited Bandwidth</li>
+		              <li>Unlimited Memory</li>
+		              <li>Unlimited Databases</li>
+		              <li>Unlimited FTP Accounts</li>
+		              <li>Unlimited Parked Domains</li>
             		</ul>
             	<div class="margin_top3"></div>
             	<a class="singup_but" href="#">Order Now</a> </div>
@@ -52,13 +52,13 @@
     <div class="price_table_holder">
         <div class="price_table">
         	<div class="plan_info">
-            <h2 class="title">Basic</h2>
-            <div class="price"><sup>$</sup>9.99 <i>/ mo</i></div>
+            <h2 class="title">Economy</h2>
+            <div class="price"><sup>$</sup>7.95 <i>/ mo</i></div>
             <ul class="plan_features two">
-              <li>1 GB Bandwidth</li>
-              <li>256 MB Memory</li>
-              <li>24/7 Full Support</li>
-              <li>256 MB Memory</li>
+              <li>100 Hosted Sites</li>
+              <li>100 Domain Supported</li>
+              <li>MySql Databases 1000</li>
+              <li>1000 FTP Accounts</li>
               <li>24/7 Full Support</li>
             </ul>
             <div class="margin_top3"></div>
