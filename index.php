@@ -40,7 +40,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-6 right">
+				<div class="col-sm-6">
 					<div class="ts-feature-item left">
 						<div class="icon-feature">
 							<i class="fa fa-database"></i>
