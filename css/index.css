@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+*{
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+#Love{
+	width: 960px;
+	height: auto;
+	overflow: hidden;
+	border:solid 1px black;
+
+}
+
+.ts-home1-hosting-services {
+    background-attachment: fixed;
+    background-image: url(kop.jpg);
+    background-repeat: repeat;
+    overflow: hidden;
+}
+.ts-home1-hosting-services {
+    margin-bottom: 0px!important;
+    padding-top: 130px!important;
+    padding-bottom: 105px!important;
+}
+.parallax-section {
+    background-size: cover;
+    position: relative;
+}
+
+.parallax-section {
+    background-position: 0 50%;
+}
+
+.ts-overlay, .overlay {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.container {
+    width: 970px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-sm-12 {
+    width: 100%;
+}
+
+.col-sm-12 {
+    float: left;
+}
+
+.col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.ts-home1-hosting-services .ts-section-title {
+    margin-bottom: 40px!important;
+}
+
+.ts-section-title {
+    position: relative;
+}
+.text-center {
+    text-align: center;
+}
+
+.ts-home1-hosting-services .ts-section-title h3 {
+    color: #fff;
+}
+.ts-section-title h3 {
+    font-weight: 300;
+    font-size: 30px;
+        margin: 0 0 20px 0;
+    margin-top: 0;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.ts-home1-block12-left {
+    border-right-width: 1px!important;
+    border-right-color: #c5c7c7!important;
+    border-right-style: solid!important;
+}
+
+.col-sm-6 {
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.ts-feature-item.right {
+    padding-right: 11.33333%;
+    text-align: right;
+}
+.ts-feature-item:first-child {
+    margin-bottom: 80px;
+}
+.ts-feature-item.right .icon-feature {
+    float: right;
+}
+
+.ts-feature-item .icon-feature {
+    background: rgba(255,255,255,0.4);
+    width: 98px;
+    height: 98px;
+    line-height: 98px;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.ts-feature-item.right .info-feature {
+    padding-right: 128px;
+}
+
+.ts-feature-item .info-feature {
+    font-size: 14px;
+    color: #d1d1d1;
+    display: block;
+}
+.ts-feature-item.right {
+    
+    text-align: right;
+}
+.ts-feature-item .info-feature h3 {
+    font-size: 20px;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+.ts-feature-item .info-feature h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.right{
+	float: right;
+}
