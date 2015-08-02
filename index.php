@@ -6,6 +6,32 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 </head>
 <body>
+<section class="domain_search">
+	<div class="liop">
+	<div class="left">
+        <div class="search_section">    
+			<form method="get" id="domain-searchform" action="https://pk.godaddy.com/api/dpp/search/single" target="_blank">
+	        <div>
+	        <input class="input-text" name="domainToCheck" id="s" value="Enter your Domain Name here..." onfocus="if (this.value == 'Enter your Domain Name here...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter your Domain Name here...';}" type="text"> 
+	        <input id="searchsubmit" value="Search" type="submit">        
+	        </div>
+	        </form>
+        </div>
+        <div class="clearfix"></div>
+        
+        <div class="sm_links"><a href="#">View Domain Price List</a>  | <a href="#">Bulk Domain Search</a> | <a href="#">Transfer Domain</a></div>
+    </div>
+    <div class="right">
+        <ul>
+        	<li><img src="dot-com.png" alt=""><em>From</em> $4.99/year</li>
+            <li><img src="dot-org.png" alt=""><em>From</em> $3.99/year</li>
+            <li><img src="dot-co.png" alt=""><em>From</em> $3.45/year</li>
+            <li><img src="dot-net.png" alt=""><em>From</em> $2.99/year</li>
+        </ul>
+    </div>
+    </div>
+</section>
+<div class="shadow_01"></div>
 <section class="section_holder33">
 	<div class="dingdon">
 	<div class="price_table_holder">
@@ -110,7 +136,7 @@
 							<i class="fa fa-database"></i>
 						</div>
 						<div class="info-feature">
-							<h3><a href="">Unlimited storage and bandwidth</a></h3>
+							<h3><a href="">Storage and bandwidth</a></h3>
 							<p>Our hosting contains such a huge and refreshing packges for every level of customers which includes
 							unlimited storage and bandwidth which will help your data and websites to be run on extreme optimization.</p>
 						</div>
@@ -188,6 +214,11 @@
 			<input type="email" placeholder="Enter your email address">
 			<input type="submit" value="Notiy Me">
 		</form>
+	</div>
+</section>
+<section class="clints">
+	<div class="inClints">
+		
 	</div>
 </section>
 </body>
