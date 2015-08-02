@@ -64,5 +64,65 @@
 		</div>		
 	</div>
 </section>
+<section id="takeagain">
+	<div class="column dt-sc-one-third   first lopsp">
+		<div class="dt-sc-ico-content  type3">
+			<div class="icon">
+				<span><img src="secure-colored.png" alt=""></span>
+			</div>
+			<h3>Host up to 100 websites</h3>
+		</div>
+	</div>
+	<div class="column dt-sc-one-third lopsp  ">
+		<div class="dt-sc-ico-content  type3">
+			<div class="icon">
+				<span><img src="db-share-colored.png"></span>
+			</div>
+			<h3>100 GB storage</h3>
+		</div>
+	</div>
+	<div class="column dt-sc-one-third  lopsp ">
+		<div class="dt-sc-ico-content  type3">
+			<div class="icon">
+				<span><img src="db-storage-colored.png"></span>
+			</div>
+			<h3>SSD database storage</h3>
+		</div>
+	</div>
+	<div class="column dt-sc-one-third   first lopsp">
+		<div class="dt-sc-ico-content  type3">
+			<div class="icon">
+				<span><img src="cpu-colored.png"></span>
+			</div>
+				<h3>Ensured Bandwidth Speed</h3>
+		</div>
+	</div>
+	<div class="column dt-sc-one-third   lopsp">
+		<div class="dt-sc-ico-content  type3">
+			<div class="icon">
+				<span><img src="server-colored.png"></span>
+			</div>
+				<h3>Unlimited Domains</h3>
+		</div>
+	</div>
+	<div class="column dt-sc-one-third   lopsp">
+		<div class="dt-sc-ico-content  type3">
+			<div class="icon">
+				<span><img src="sec-shield-colored.png"></span>
+			</div>
+				<h3>Highly Secure and Safe</h3>
+		</div>
+	</div>
+</section>
+<section id="newsletter">
+	<h1 id="Subscribe">Sign up for our newsletter now</h1>
+	<p>Be amongst the first to know about news and upcoming features</p>
+	<div class="newsletterfields">
+		<form>
+			<input type="email" placeholder="Enter your email address">
+			<input type="submit" value="Notiy Me">
+		</form>
+	</div>
+</section>
 </body>
 </html>

@@ -221,3 +221,116 @@ p {
     min-height: 1px;
     position: relative;
 }
+
+
+#newsletter {
+	padding-top: 60px;
+	padding-bottom: 80px;
+	background-image: url(newsletter_bkg.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+	text-align: center;
+}
+
+#newsletter h1 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+
+#newsletter p {
+	color: #999;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0 0 10px;
+}
+
+p {
+	
+}
+
+#newsletter form input[type="email"] {
+	background-color: #f0f0f0;
+	width: 456px;
+	color: #414141;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 10px 15px;
+	border: 1px solid #ccc;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#newsletter form input[type="submit"] {
+	width: 182px;
+	background-color: #ff573c;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 10px;
+	padding: 10px 15px;
+	border: medium none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+	cursor: pointer;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.newsletterfields{
+	padding: 0;
+}
+
+#takeagain{
+	width: 970px;
+	height: auto;
+	overflow: hidden;
+	padding: 23px 0px;
+	margin-top: 25px;
+}
+.dt-sc-one-third {
+    width: 32%;
+}
+
+.dt-sc-ico-content.type3 {
+    background: none;
+    display: inline-block;
+    margin-bottom: 35px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.dt-sc-ico-content.type3 .icon {
+    display: block;
+    float: left;
+    line-height: 0;
+    margin: 0 20px 0 0;
+    text-align: center;
+    width: 70px;
+}
+.dt-sc-ico-content.type3 .icon span {
+    display: inline-block;
+    width: 100%;
+    color: #405069;
+}
+
+.dt-sc-ico-content.type3 h3, .dt-sc-ico-content.type3 h4, .dt-sc-ico-content.type3 h5, .dt-sc-ico-content.type3 h6 {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 14px 0 16px;
+    text-align: left;
+}
+.lopsp{
+	float: left;
+}
