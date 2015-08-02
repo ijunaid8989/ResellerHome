@@ -6,6 +6,70 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 </head>
 <body>
+<section class="section_holder33">
+	<div class="dingdon">
+	<div class="price_table_holder">
+        <div class="price_table">
+        	<div class="plan_info">
+            <h2 class="title">Basic</h2>
+            <div class="price"><sup>$</sup>9.99 <i>/ mo</i></div>
+            <ul class="plan_features two">
+              <li>1 GB Bandwidth</li>
+              <li>256 MB Memory</li>
+              <li>24/7 Full Support</li>
+              <li>256 MB Memory</li>
+              <li>24/7 Full Support</li>
+            </ul>
+            <div class="margin_top3"></div>
+            <a class="singup_but" href="#">Order Now</a> </div>
+          <br>
+          <br>
+        </div>
+        <div class="shadow_box"></div>
+    </div>
+    <div class="price_table_holder">
+        <div class="price_table active">
+            <div class="arrow"></div>
+          		<div class="arrow two"></div>
+          		<div class="arrow three"></div>
+          		<div class="arrow four"></div>
+          		<div class="plan_info" style="color:white;">
+            		<h2 class="title">Premium</h2>
+            		<div class="price"><sup>$</sup>39.99 <i>/ mo</i></div>
+            		<ul class="plan_features two">
+		              <li>1 GB Bandwidth</li>
+		              <li>256 MB Memory</li>
+		              <li>24/7 Full Support</li>
+		              <li>24/7 Full Support</li>
+		              <li>256 MB Memory</li>
+            		</ul>
+            	<div class="margin_top3"></div>
+            	<a class="singup_but" href="#">Order Now</a> </div>
+          		<br>
+          		<br>
+        </div>
+    </div>
+    <div class="price_table_holder">
+        <div class="price_table">
+        	<div class="plan_info">
+            <h2 class="title">Basic</h2>
+            <div class="price"><sup>$</sup>9.99 <i>/ mo</i></div>
+            <ul class="plan_features two">
+              <li>1 GB Bandwidth</li>
+              <li>256 MB Memory</li>
+              <li>24/7 Full Support</li>
+              <li>256 MB Memory</li>
+              <li>24/7 Full Support</li>
+            </ul>
+            <div class="margin_top3"></div>
+            <a class="singup_but" href="#">Order Now</a> </div>
+          <br>
+          <br>
+        </div>
+        <div class="shadow_box"></div>
+    </div>
+    </div>
+</section>
 <section class = "ts-home1-hosting-services parallax-section">
 	<div class="ts-overlay"></div>
 	<div class="container">
@@ -23,8 +87,8 @@
 							<h3>
 								<a href="">One-click set-up</a>
 							</h3>
-							<p>Globally evolve e-business niches with best-of-breed technology. Monotonectally iterate backend 
-							infomediaries for excellent manufactured products. Dramatically disseminate</p>
+							<p>Hosting package include thousands of such Application which you can install to your domain to
+							make your website more charming and echo friendly with customers and viewers.</p>
 						</div>
 					</div>
 					<div class="ts-feature-item right">
@@ -35,8 +99,8 @@
 							<h3>
 								<a href="">Scalability to fit your needs</a>
 							</h3>
-							<p>Globally evolve e-business niches with best-of-breed technology. Monotonectally iterate backend 
-							infomediaries for excellent manufactured products. Dramatically disseminate</p>
+							<p>Compellingly transform plug-and-play expertise whereas efficient platforms. 
+							Authoritatively communicate quality sources vis-a-vis standards compliant partnerships</p>
 						</div>
 					</div>
 				</div>
@@ -47,7 +111,8 @@
 						</div>
 						<div class="info-feature">
 							<h3><a href="">Unlimited storage and bandwidth</a></h3>
-							<p>Globally evolve e-business niches with best-of-breed technology. Monotonectally iterate backend infomediaries for excellent manufactured products. Dramatically disseminate</p>
+							<p>Our hosting contains such a huge and refreshing packges for every level of customers which includes
+							unlimited storage and bandwidth which will help your data and websites to be run on extreme optimization.</p>
 						</div>
 					</div>
 					<div class="ts-feature-item left">
@@ -56,7 +121,8 @@
 						</div>
 						<div class="info-feature">
 							<h3><a href="">24/7 secure monitoring</a></h3>
-								<p>Globally evolve e-business niches with best-of-breed technology. Monotonectally iterate backend infomediaries for excellent manufactured products. Dramatically disseminate</p>
+								<p>The most we care about is our customers for whom our whole team is ever ready to help them in case
+								of any issue or errors which mostly never come across anyways , but our team is ever ready to help.</p>
 						</div>
 					</div>
 				</div>
