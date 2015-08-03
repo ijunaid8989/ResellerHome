@@ -4,8 +4,169 @@
 	<title>Welcome</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<script src="js/jquery-1.11.0.min.js"></script>
+	 <script>
+   $(document).ready(function() {
+			// Show or hide the sticky footer button
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('.look').fadeIn(200);
+				} else {
+					$('.look').fadeOut(200);
+				}
+			});
+			
+			// Animate the scroll to top
+			$('.logoS').click(function(event) {
+				event.preventDefault();
+				
+				$('html, body').animate({scrollTop: 0}, 300);
+			})
+		});
+   $(document).ready(function () {
+    $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+            $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top - 200 // - 200px (nav-height)
+        }, 900, 'swing', function () {
+            window.location.hash = '1' + target;
+        });
+    });
+});
+</script>
 </head>
 <body>
+<div class="main_header">
+<section class="wrapper">
+	<div class="top_contact_info">
+		<div class="ding">
+			<div class="date_wrap">
+			<script type="text/javascript">
+	            var mydate=new Date()
+	            var year=mydate.getYear()
+	            if (year < 1000)
+	            year+=1900
+	            var day=mydate.getDay()
+	            var month=mydate.getMonth()
+	            var daym=mydate.getDate()
+	            if (daym<10)
+	            daym="0"+daym
+	            var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+	            document.write("<b class='date'>"+montharray[month]+" "+daym+", "+year+"</b>")
+            </script>
+			</div>
+			<div class="sajypase">
+				<div class="socialme">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-linkedin"></i>
+					<i class="fa fa-google-plus"></i>
+				</div>
+				<div class="fixer_o">
+					<i class="fa fa-comment"></i>
+					Live chat
+				</div>
+				<div class="fixer_o">
+					<i class="fa fa-envelope"></i>
+					test@test.com
+				</div>
+				<div class="fixer_p">
+					<i class = "fa fa-headphones"></i>
+					0-347-1234678
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="trueeHeader" class="look">
+	<div class="wrapper">
+		<div class="contimon">
+			<div class="one_fourth">
+				<a href="" id="logo"></a>
+			</div>
+			<div class="three_fourth last">
+				<nav id="access">
+				<div class="menu">
+					<ul>
+						<li>
+						<a href="" class="active">Home</a>
+						</li>
+						<li>
+							<a href="" class="">Web Hosting</a>
+						</li>
+						<li>
+							<a href="">Benefits</a>
+						</li>
+						<li>
+							<a href="">Services</a>
+						</li>
+						<li>
+							<a href="">Clients</a>
+						</li>
+						<li>
+							<a href="">Newsletter</a>
+						</li>
+						<li>
+							<a href="">Contact</a>
+						</li>
+					</ul>
+				</div>
+				</nav>
+			</div>
+		</div>
+</section>
+<section id="trueHeader">
+	<div class="wrapper">
+		<div class="contimon">
+			<div class="one_fourth">
+				<a href="" id="logo"></a>
+			</div>
+			<div class="three_fourth last">
+				<nav id="access">
+				<div class="menu">
+					<ul>
+						<li>
+						<a href="" class="active">Home</a>
+						</li>
+						<li>
+							<a href="" class="">Web Hosting</a>
+						</li>
+						<li>
+							<a href="">Benefits</a>
+						</li>
+						<li>
+							<a href="">Services</a>
+						</li>
+						<li>
+							<a href="">Clients</a>
+						</li>
+						<li>
+							<a href="">Newsletter</a>
+						</li>
+						<li>
+							<a href="">Contact</a>
+						</li>
+					</ul>
+				</div>
+				</nav>
+			</div>
+		</div>
+		<div class="bigone">
+			<div class="headingTTT">
+				Relibility Web hosting
+			</div>
+			<div class="dojit">Get your domain and fexible hosting for your websites</div>
+			<div class="flieer">
+				<img src="1.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+</div>
 <section class="domain_search">
 	<div class="liop">
 	<div class="left">
@@ -204,6 +365,34 @@
 			</div>
 				<h3>Highly Secure and Safe</h3>
 		</div>
+	</div>
+</section>
+<section class="clients_sec">
+	<div class="container">
+		<div class="title">
+          	<strong class="">Our Clients</strong>
+			We are Proud to be Trusted By    
+        </div>
+        <div class="clients">
+        	<ul>
+        		<li class="jcarousel-item">
+        			<img src="client-logo1.png" alt="">
+        		</li>
+        		<li class="jcarousel-item">
+        			<img src="client-logo2.png" alt="">
+        		</li>
+        		<li class="jcarousel-item">
+        			<img src="client-logo3.png" alt="">
+        		</li>
+        		<li class="jcarousel-item">
+        			<img src="client-logo4.png" alt="">
+        		</li>
+        		<li class="jcarousel-item">
+        			<img src="client-logo5.png" alt="">
+        		</li>
+        		
+        	</ul>
+        </div>
 	</div>
 </section>
 <section id="newsletter">
