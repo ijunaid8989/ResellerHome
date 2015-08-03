@@ -40,7 +40,7 @@
 </script>
 </head>
 <body>
-<div class="main_header">
+<div id = "Home" class="main_header">
 <section class="wrapper">
 	<div class="top_contact_info">
 		<div class="ding">
@@ -83,35 +83,35 @@
 	</div>
 </section>
 <section id="trueeHeader" class="look">
-	<div class="wrapper">
+	<div  class="wrapper">
 		<div class="contimon">
 			<div class="one_fourth">
-				<a href="" id="logo"></a>
+				<a href="Javascript;" id="logo"></a>
 			</div>
 			<div class="three_fourth last">
 				<nav id="access">
 				<div class="menu">
 					<ul>
 						<li>
-						<a href="" class="active">Home</a>
+						<a href="#Home">Home</a>
 						</li>
 						<li>
-							<a href="" class="">Web Hosting</a>
+							<a href="#Whost" class="">Web Hosting</a>
 						</li>
 						<li>
-							<a href="">Benefits</a>
+							<a href="#Benefits">Benefits</a>
 						</li>
 						<li>
-							<a href="">Services</a>
+							<a href="#Service">Services</a>
 						</li>
 						<li>
-							<a href="">Clients</a>
+							<a href="#Clients">Clients</a>
 						</li>
 						<li>
-							<a href="">Newsletter</a>
+							<a href="#NewL">Newsletter</a>
 						</li>
 						<li>
-							<a href="">Contact</a>
+							<a href="#Contact">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -130,25 +130,25 @@
 				<div class="menu">
 					<ul>
 						<li>
-						<a href="" class="active">Home</a>
+						<a href="#Home">Home</a>
 						</li>
 						<li>
-							<a href="" class="">Web Hosting</a>
+							<a href="#Whost">Web Hosting</a>
 						</li>
 						<li>
-							<a href="">Benefits</a>
+							<a href="#Benefits">Benefits</a>
 						</li>
 						<li>
-							<a href="">Services</a>
+							<a href="#Service">Services</a>
 						</li>
 						<li>
-							<a href="">Clients</a>
+							<a href="#Clients">Clients</a>
 						</li>
 						<li>
-							<a href="">Newsletter</a>
+							<a href="#NewL">Newsletter</a>
 						</li>
 						<li>
-							<a href="">Contact</a>
+							<a href="#Contact">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -196,18 +196,18 @@
 <section class="section_holder33">
 	<div class="dingdon">
 	<div class="price_table_holder">
-        <div class="price_table">
-        	<div class="plan_info">
+        <div  class="price_table">
+        	<div  class="plan_info">
             <h2 class="title">Basic</h2>
-            <div class="price"><sup>$</sup>5.95 <i>/ mo</i></div>
-            <ul class="plan_features two">
+            <div id ="Whost"  class="price"><sup>$</sup>5.95 <i>/ mo</i></div>
+            <ul  class="plan_features two">
               <li>1 GB Bandwidth</li>
               <li>100 GB Memory</li>
               <li>10 Domains Supported</li>
               <li>100 MySql Databases</li>
               <li>24/7 Full Support</li>
             </ul>
-            <div class="margin_top3"></div>
+            <div  class="margin_top3"></div>
             <a class="singup_but" href="#">Order Now</a> </div>
           <br>
           <br>
@@ -257,14 +257,14 @@
     </div>
     </div>
 </section>
-<section class = "ts-home1-hosting-services parallax-section">
+<section  class = "ts-home1-hosting-services parallax-section">
 	<div class="ts-overlay"></div>
 	<div class="container">
 		<div class="col-sm-12">
 			<div class="ts-section-title text-center">
-				<h3>Best Small Business Hosting Services</h3>
+				<h3 >Best Small Business Hosting Services</h3>
 			</div>
-			<div class="row">
+			<div id="Benefits" class="row">
 				<div class="col-sm-6  ts-home1-block12-left">
 					<div class="ts-feature-item right">
 						<div class="icon-feature">
@@ -318,7 +318,7 @@
 	</div>
 </section>
 <section id="takeagain">
-	<div class="column dt-sc-one-third   first lopsp">
+	<div id="Service" class="column dt-sc-one-third   first lopsp">
 		<div class="dt-sc-ico-content  type3">
 			<div class="icon">
 				<span><img src="secure-colored.png" alt=""></span>
@@ -367,7 +367,7 @@
 		</div>
 	</div>
 </section>
-<section class="clients_sec">
+<section id="Clients" class="clients_sec">
 	<div class="container">
 		<div class="title">
           	<strong class="">Our Clients</strong>
@@ -395,6 +395,7 @@
         </div>
 	</div>
 </section>
+<div id="NewL">
 <section id="newsletter">
 	<h1 id="Subscribe">Sign up for our newsletter now</h1>
 	<p>Be amongst the first to know about news and upcoming features</p>
@@ -405,10 +406,9 @@
 		</form>
 	</div>
 </section>
-<section class="clints">
-	<div class="inClints">
-		
-	</div>
+</div>
+<section class="copyright">
+	Copyright © 2015. All rights reserved. Design by <a href="http://junaid.websoltechnologies.org" target="_blank">Junaid Farooq</a>
 </section>
 </body>
 </html>
