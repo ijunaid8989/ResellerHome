@@ -111,7 +111,7 @@
 							<a href="#NewL">Newsletter</a>
 						</li>
 						<li>
-							<a href="#Contact">Contact</a>
+							<a href="#Contact" id="contact">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -407,6 +407,9 @@
 	</div>
 </section>
 </div>
+<section id ="counter" class="breaking">
+	<div id="Contact" class="wanasayhi">Want to say Hi...!</div>
+</section>
 <section class="copyright">
 	Copyright © 2015. All rights reserved. Design by <a href="http://junaid.websoltechnologies.org" target="_blank">Junaid Farooq</a>
 </section>

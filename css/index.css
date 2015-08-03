@@ -1002,3 +1002,77 @@ ul li {
 	color: white;
 	font-weight: bold;
 }
+a.selected {
+  background-color:#1F75CC;
+  color:white;
+  z-index:100;
+}
+
+.messagepop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  cursor:default;
+  display:none;
+  margin-top: 15px;
+  position:absolute;
+  text-align:left;
+  width:394px;
+  z-index:50;
+  padding: 25px 25px 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+.messagepop p, .messagepop.div {
+  border-bottom: 1px solid #EFEFEF;
+  margin: 8px 0;
+  padding-bottom: 8px;
+}
+
+#counter {
+    background: url(stock4.jpg) no-repeat bottom center;
+    background-size: cover;
+    width: 100%;
+    padding: 10px 0px;
+    height: 400px;
+    text-align: center;
+}
+section.breaking {
+    position: static;
+    padding: 0;
+}
+.breaking {
+    position: relative;
+    background-attachment: fixed !important;
+    color: #fff;
+}
+.centered {
+    text-align: center;
+}
+
+.wanasayhi{
+	font-size: 30px;
+	font-weight: 300;
+	color: white;
+	line-height: 30px;
+	margin-top: 25px;
+	padding: 10px 29px;
+    display: inline-block;
+    background-color: #46A1CD;
+    border-bottom-right-radius: 29px;
+    border-top-left-radius: 29px;
+}
+
+.ts-overlay, .overlay {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+}
