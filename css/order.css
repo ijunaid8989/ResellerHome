@@ -1,0 +1,62 @@
+*{
+	margin: 0 auto;
+}
+
+
+body{
+	background: #F0F0F0;
+}
+#Fixuture{
+    background-color: #272727;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#454545), to(#272727));
+    background-image: -webkit-linear-gradient(top, #454545, #272727);
+    background-image: -moz-linear-gradient(top, #454545, #272727);
+    background-image: -o-linear-gradient(top, #454545, #272727);
+    background-image: linear-gradient(to bottom, #454545, #272727);
+}
+
+.mainHead{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+
+.foreb{
+	width: 930px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.hlogo{
+	display: block;
+    width: 100%;
+    height: 40px;
+    text-indent: -999em;
+    background: url(logoo.png) no-repeat left bottom;
+    width: 15%;
+}
+
+#Forms{
+	width: 700px;
+	height: auto;
+	overflow: hidden;
+	padding: 10px 0px;
+	margin-top: 20px;
+
+
+}
+
+.fixin{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+
+.rixin{
+	width: 28%;
+	height: auto;
+	float: right;
+}

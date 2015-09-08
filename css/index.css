@@ -492,12 +492,12 @@ a {
     z-index: 3;
 }
 .section_holder33 .price_table .arrow.three {
-    margin: 457px 0px 0px -34px;
+    margin: 496px 0px 0px -34px;
     background: url(site-img58.png) 0 0 no-repeat;
 }
 
 .section_holder33 .price_table .arrow.four {
-    margin: 457px 0px 0px 291px;
+    margin: 496px 0px 0px 291px;
     background: url(site-img60.png) 0 0 no-repeat;
 }
 
@@ -1125,4 +1125,61 @@ section.breaking {
     border-bottom-right-radius: 29px;
     border-top-left-radius: 29px;
     border: none;
+}
+
+#devTeam{
+    background: url('rs3.jpg') fixed no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    color: #FFF;
+}
+
+.devdefine{
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+
+.finishdev{
+    width: 960px;
+    height: auto;
+    overflow: hidden;
+}
+
+.textinginDev{
+    width: 780px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.hdevei{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.shods{
+    font-weight: bold ;
+    font-size: 32px;
+}
+
+.hireus{
+    float: right;
+    padding: 20px 40px;
+    display: inline-block;
+    background-color: #46A1CD;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.finishdev a{
+    text-decoration: none;
+    color: white;
 }
