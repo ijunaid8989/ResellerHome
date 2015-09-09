@@ -12,7 +12,6 @@
 	<a href="index.html" class="hlogo"></a>
 </header>
 <div class="alert alert-dismissible alert-info foreb">
-  <button type="button" class="close" data-dismiss="alert">×</button>
   <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>,Kindly fill properly to get your Development Ideas to our Development department.
 </div>
 <section id="Forms">

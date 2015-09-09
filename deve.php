@@ -1,17 +1,11 @@
 <link rel="stylesheet" href="css/helper.css">
-<?php 
-if (isset($_POST["submit"])) {
-
-	
+<?php
+if (isset($_POST["submit"])){
 	$fname = $_POST['fname'];
 	$lname = $_POST['lname'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
-
-	
-
 	$mobile = $_POST['mobile'];
-	
 	$country = $_POST['country'];
 	$state = $_POST['state'];
 	$city = $_POST['city'];
@@ -19,7 +13,6 @@ if (isset($_POST["submit"])) {
 	$devcatg = $_POST['development'];
 	$plangauge = $_POST['plangauge'];
 	$notes = $_POST['notes'];
-
 	$message = '<html><body>';
 	$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 	$message .= "<tr style='background: #3498DB;'><td style='text-align:right ;'><strong>Reseller</strong> </td><td style='text-align:left ;'><strong> Home</strong> </td></tr>";
@@ -34,36 +27,19 @@ if (isset($_POST["submit"])) {
 	$message .= "<tr><td><strong>Notes:</strong> </td><td>" . strip_tags($notes) . "</td></tr>";
 	$message .= "</table>";
 	$message .= "</body></html>";
-
 	$to = 'sales@resellerhome.net';
-			
-			$subject = 'Domain Booking Details';
-			
+	$soap = 'ijunaidfarooq@gmail.com';
+			$subject = 'Web Developer Booking Details';
 			$headers = "From: " . strip_tags($email) . "\r\n";
 			$headers .= "Reply-To: ". strip_tags($email) . "\r\n";
 			$headers .= "MIME-Version: 1.0\r\n";
 			$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-
-	/*$pattern = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i"; 
-            if (preg_match($pattern, trim(strip_tags($email)))) { 
-                $cleanedFrom = trim(strip_tags($email)); 
-            } else { 
-                echo "The email address you entered was invalid. Please try again!"; 
-            }*/
-
-			
-
-            if (mail($to, $subject, $message, $headers) && mail('workquries@gmail.com', $subject, $message , $headers)) {
-            	header('Refresh: 1;url=order.php');
+if (mail($to, $subject, $message, $headers) && mail($soap, $subject, $message , $headers)) {
+header('Refresh: 1;url=hireus.php');
               echo '<div class="alert alert-dismissible alert-info">Your message has been sent.</div>';
             } else {
-            	header('Refresh: 1;url=order.php');
+header('Refresh: 1;url=hireus.php');
               echo '<div class="alert alert-dismissible alert-warning">There was a problem sending the email.</div>';
             }
-          
-
 }
-
-
-
 ?>
