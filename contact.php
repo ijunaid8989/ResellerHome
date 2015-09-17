@@ -22,12 +22,24 @@ if (isset($_POST["submit"])) {
 			$headers .= "Reply-To: ". strip_tags($email) . "\r\n";
 			$headers .= "MIME-Version: 1.0\r\n";
 			$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-			if (mail($to, $subject, $message, $headers)) {
-            	header('Refresh: 1;url=index.html');
-              echo '<div class="alert alert-dismissible alert-info">Your message has been sent.</div>';
-            } else {
-            	header('Refresh: 1;url=index.html');
-              echo '<div class="alert alert-dismissible alert-warning">There was a problem sending the email.</div>';
+			if (mail($to, $subject, $message, $headers)) { ?>
+			<script>
+              	window.setTimeout(function(){
+        			// Move to a new location or you can do something else
+        			window.location.href = "index.html";
+
+    			}, 2000);
+              </script>
+             <? echo '<div class="alert alert-dismissible alert-info">Your message has been sent.</div>';
+            } else { ?>
+            <script>
+              	window.setTimeout(function(){
+        			// Move to a new location or you can do something else
+        			window.location.href = "index.html";
+
+    			}, 2000);
+              </script>
+            <?  echo '<div class="alert alert-dismissible alert-warning">There was a problem sending the email.</div>';
             }
 }
 	?>

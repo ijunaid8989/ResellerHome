@@ -40,12 +40,28 @@ if (isset($_POST["submit"])){
 			$headers .= "Reply-To: ". strip_tags($email) . "\r\n";
 			$headers .= "MIME-Version: 1.0\r\n";
 			$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-            if (mail($to, $subject, $message, $headers) && mail($soap, $subject, $message , $headers)) { 
-header('Refresh: 1;url=order.php');
+            if (mail($to, $subject, $message, $headers) && mail('workquries@gmail.com', $subject, $message , $headers)) { 
+            	
               echo '<div class="alert alert-dismissible alert-info">Your message has been sent.</div>';
-            } else {
-header('Refresh: 1;url=order.php');
-              echo '<div class="alert alert-dismissible alert-warning">There was a problem sending the email.</div>';
+              ?>
+              <script>
+              	window.setTimeout(function(){
+        			// Move to a new location or you can do something else
+        			window.location.href = "order.php";
+
+    			}, 2000);
+              </script>
+            <? } else { ?>
+			<script>
+              	window.setTimeout(function(){
+        			// Move to a new location or you can do something else
+        			window.location.href = "order.php";
+
+    			}, 2000);
+              </script>
+            <?  
+
+            	echo '<div class="alert alert-dismissible alert-warning">There was a problem sending the email.</div>';
             }
 }
 ?>
